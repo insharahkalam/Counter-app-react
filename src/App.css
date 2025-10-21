@@ -3,17 +3,20 @@
     src: url(/public/fonts/Valty\ DEMO.otf);
 }
 
-.main{
-  font-family: "myFont";
+.main {
+    font-family: "myFont";
 }
 
-.body{
-    box-shadow: 0px 0px 5px gray;
-    border: 2px solid rgb(41, 41, 41);
-     background-image: url(https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?semt=ais_hybrid&w=740&q=80);
+.body {
+    box-shadow: 0px 0px 15px gray;
+    border: 3px solid rgb(28, 28, 28);
+    background-image: url(https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?semt=ais_hybrid&w=740&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+.counter{
+      box-shadow: 0px 0px 15px gray;
+    border: 3px solid rgb(28, 28, 28);
+}
