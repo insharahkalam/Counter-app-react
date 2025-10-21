@@ -39,14 +39,12 @@ const App = () => {
   const options = { day: "numeric", month: "long", year: "numeric" }
   const currentDate = now.toLocaleDateString("en-GB", options)
 
-
   useEffect(() => {
     function updateTime() {
       const currentTime = new Date()
       const hours = currentTime.getHours()
       const minutes = currentTime.getMinutes()
       const formatTime = `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}`
-
       setTime(formatTime)
     }
     updateTime();
@@ -97,22 +95,13 @@ const App = () => {
             </div>
           </div>
 
-
           <div className='bottom flex justify-center gap-4 flex-col items-center'>
             <p className='text-white text-xs'>Developed By Insharah</p>
             <div className='w-[120px] h-[6px] bg-gray-700 rounded-full '>
-
             </div>
+
           </div>
-
-
         </div>)}
-
-
-
-
-
-
     </div>
   )
 }
