@@ -98,7 +98,8 @@ const App = () => {
           </div>
 
 
-          <div className='bottom flex justify-center '>
+          <div className='bottom flex justify-center gap-4 flex-col items-center'>
+            <p className='text-white text-xs'>Developed By Insharah</p>
             <div className='w-[120px] h-[6px] bg-gray-700 rounded-full '>
 
             </div>
